@@ -14,7 +14,7 @@ const greeting = {
   username: "Nabil BenTamer",
   title: "Bonjour Tout le monde",
   subTitle: emoji(
-    "Je suis un jeune développeur qui est passionnée par la programmation et le web design. j'aime bien créer des application mobile et web qui sont à la fois attirantes et facile à utiliser. 🚀 "
+    "Je suis un jeune développeur qui est passionné par la programmation et le web design. j'aime bien créer des application mobile et web qui sont à la fois attirantes et facile à utiliser. 🚀 "
   ),
   resumeLink:
     "https://drive.google.com/file/d/1Q0Lends0k8asPDkPAkfVW9ZwbClRhMtj/view?usp=sharing",
@@ -38,14 +38,14 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Ce que je fais : ",
+  subTitle: "Un developeur curieux qui veut explorer le monde de programmation et apprendre le plus vite possible ",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ déveloper des applications mobile et web qui serve pour l'utilisateur"
     ),
     emoji(
-      "⚡ Integration of third party services such as Firebase"
+      "⚡ integration des services tel que Firebase avec les application native (basé sur java) et utilise android-Studio"
     )
   ],
 
@@ -335,9 +335,9 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contactez Moi ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+    "Vous avez un projet est vous voulez discuter? je suis ouvert à toute proposition",
   number: "+212 610463856",
   email_address: "nabil.bentamer7@gmail.com"
 };
