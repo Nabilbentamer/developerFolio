@@ -12,25 +12,25 @@ const illustration = {
 
 const greeting = {
   username: "Nabil BenTamer",
-  title: "Hi all, I'm Nabil",
+  title: "Bonjour Tout le monde",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Je suis un jeune développeur qui est passionnée par la programmation et le web design. j'aime bien créer des application mobile et web qui sont à la fois attirantes et facile à utiliser. 🚀 "
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
+    "https://drive.google.com/file/d/1Q0Lends0k8asPDkPAkfVW9ZwbClRhMtj/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/Nabilbentamer",
+  linkedin: "https://www.facebook.com/nabil.bentamer12/",
+  gmail: "nabil.bentamer7@gmail.com",
+  //gitlab: "https://gitlab.com/saadpasta",
+  facebook: "https://www.facebook.com/nabil.bentamer12/",
+  //medium: "https://medium.com/@saadpasta",
+  //stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram and Twitter are also supported in the links!
   display: true // Set true to display this section, defaults to false
 };
@@ -44,9 +44,8 @@ const skillsSection = {
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integration of third party services such as Firebase"
     )
   ],
 
@@ -63,37 +62,28 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
+
     },
     {
       skillName: "reactjs",
       fontAwesomeClassname: "fab fa-react"
     },
+
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "Symfony",
+      fontAwesomeClassname: "fab fa-symfony"
     },
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
+
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
@@ -102,10 +92,6 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -116,24 +102,34 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
+      schoolName: "ENSIAS (Ecole Nationale Supérieure d'Informatique et d’Analyse des Systèmes)",
+      logo: require("./assets/images/ensias.png"),
+      subHeader: "Ingénieur d'Etat (2ème année)",
+      duration: "Septembre 2018 - Août 2022",
+      desc: "Filière IWIM (Ingénierie Web et Informatique Mobile)",
+      /*descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      ]*/
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Cpge: Lycée Technique Mohammedia",
+      logo: require("./assets/images/cpge.png"),
+      subHeader: "Classes Préparatoires des Grandes Ecoles",
+      duration: "Septembre 2017 - Mai 2018",
+      desc: "Option MPSI/MP",
+      //descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
+    ,
+    {
+      schoolName: "Lycée Ibno Mandour",
+      logo: require("./assets/images/ibnomandour.jpg"),
+      subHeader: "Baccalauréat Science Mathématique B",
+      duration: "Septembre 2016 - Mai 2017",
+      desc: "Mention : Très bien",
+      //descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+    }
+
   ]
 };
 
@@ -151,7 +147,7 @@ const techStack = {
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
+      Stack: "Programmation",
       progressPercentage: "60%"
     }
   ],
