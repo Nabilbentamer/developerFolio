@@ -103,7 +103,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "ENSIAS (Ecole Nationale Supérieure d'Informatique et d’Analyse des Systèmes)",
-      logo: require("./assets/images/ensias.png"),
+      logo: require("./assets/images/ensias.jpg"),
       subHeader: "Ingénieur d'Etat (2ème année)",
       duration: "Septembre 2018 - Août 2022",
       desc: "Filière IWIM (Ingénierie Web et Informatique Mobile)",
@@ -114,7 +114,7 @@ const educationInfo = {
     },
     {
       schoolName: "Cpge: Lycée Technique Mohammedia",
-      logo: require("./assets/images/cpge.png"),
+      logo: require("./assets/images/cpge.jpg"),
       subHeader: "Classes Préparatoires des Grandes Ecoles",
       duration: "Septembre 2017 - Mai 2018",
       desc: "Option MPSI/MP",
@@ -160,30 +160,17 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
+      role: "Stage d'été - développement Web",
+      company: "E-processing",
+      companylogo: require("./assets/images/esprocessing.jpg"),
+      date: "Juin 2019 – Août 2019",
+      desc: "developpement d'une application web qui permet à l'utilisateur d'intéragir avec l'automate.",
+      /*descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      ]*/
     }
+
   ]
 };
 
@@ -192,37 +179,41 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projets Réalisés",
+  //subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
+      //image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "CasaFoodie",
+      projectDesc: "Application Web (avec Version mobile) qui permet à l'utilisateur de trouver un restaurant selon son choix, et ses préferance avec la possibilité de  recommender une liste des restaurants d'une manière intelligente",
+      /*footerLink: [
         {
           name: "Visit Website",
           url: "http://saayahealth.com/"
         }
         //  you can add extra buttons here.
-      ]
+      ]*/
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
+      //image: require("./assets/images/nextuLogo.webp"),
+      projectName: "Estock",
+      projectDesc: "application web qui permet à un admin de gerer le stock, les produits disponibles ainsi que les fournisseurs et les clients",
+      /*footerLink: [
         {
           name: "Visit Website",
           url: "http://nextu.se/"
         }
-      ]
+      ]*/
+    },
+    {
+      projectName: "Sens-Internet",
+      projectDesc: "un jeux unity 2d qui est déstiné aux enfants qui porte sur la sensibilisation d'usage internet"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -283,7 +274,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -347,8 +338,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  number: "+212 610463856",
+  email_address: "nabil.bentamer7@gmail.com"
 };
 
 // Twitter Section
